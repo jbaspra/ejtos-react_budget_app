@@ -10,12 +10,12 @@ const Currency = () => {
     }
     
   return (
-    <div className='alert alert-secondary' style={{backgroundColor: 'greenyellow'}}> { 
+    <div className='alert alert-secondary' style={{backgroundColor: 'greenyellow'}}> Currency { 
       <select name="Currency" id="Currency" onChange={event=>changeCurrency(event.target.value)}>
-        <option value="£">Currency £ Pound</option>
-        <option value="₹">Currency ₹ Ruppee</option>
-        <option value="€">Currency € Euro</option>
-        <option value="$">Currency $ Dollar</option>
+        <option value="£">£ Pound</option>
+        <option value="₹">₹ Ruppee</option>
+        <option value="€">€ Euro</option>
+        <option value="$">$ Dollar</option>
       </select>	
       }	
     </div>
